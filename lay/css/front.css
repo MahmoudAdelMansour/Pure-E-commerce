@@ -1,0 +1,255 @@
+/*-- Front End CSS file */
+/************************ NAVBAR *****************/
+ /* Dropdown Button */
+
+.dropbtn {
+	  padding: 16px;
+    padding-left:19px;
+	  padding-right:20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+.button-normal-nav{
+  display: inline;
+}
+
+.normalbut{
+	padding: 16px;
+	margin: 0px 0.1%;
+  background-color: #1C5A9F;
+  border: none;
+  color: white;
+	font-size: 16px;
+
+}
+.normalbut:hover{
+ background-color:#22466F;
+}
+/* Start Ico Zone Area*/
+.home-ico {
+	float:left;
+	padding-top:0.50%;
+	color:#585555;
+}
+.brand-i{
+	padding-left: 1px;
+	padding-top:20px;
+	color:#585555;
+	font-size:25px;
+
+}
+/* End Form Style */
+/* Bootstrap Edit */
+.navbar{
+	border-radius:0px;
+	margin-bottom:2px;
+}
+/* Less Than 1200 */
+@media only screen and (max-width:1280px){
+ /* Dropdown Button */
+
+.dropbtn {
+	  padding: 16px;
+    padding-left:19px;
+	  padding-right:20px;
+    background-color: #00a488;
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+.button-normal-nav{
+    display:inline-flex;
+    margin:0px 3px;
+
+}
+
+.normalbut{
+	padding: 16px;
+	margin: 0px 0px;
+  background-color: #1C5A9F;
+  border: none;
+  color: white;
+	font-size: 16px;
+
+
+
+}
+.normalbut:hover{
+ background-color:#22466F;
+}
+/* Start Ico Zone Area*/
+.home-ico {
+	float:left;
+	padding-top:0.50%;
+	color:#585555;
+}
+.brand-i{
+	padding-left: 1px;
+	padding-top:20px;
+	color:#585555;
+	font-size:25px;
+
+}
+/* End Form Style */
+/* Bootstrap Edit */
+.navbar{
+      display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    flex-basis: auto;
+    flex-shrink: 1;
+    justify-content: start;
+	border-radius:0px;
+	margin-bottom:2px;
+}
+/******END NAVABAR *****/
+
+}
+/******END NAVABAR *****/
+/**********Start items style*****/
+.items-boxs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 4px;
+    width: 100%;
+}
+.item-box {
+    position:relative;
+    max-width: 240px;
+    max-height: 330px;
+    width: 230px;
+    height: 310px;
+    border-radius:4px;
+    text-align: center;
+    margin: 15px;
+    background:white;
+    border:0px;
+    box-shadow:0px 0px 4px 1px;
+    overflow: hidden;
+    color:#343434;
+}
+.item-box:hover{
+    transition:box-shadow,height;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    height: 312px;
+    box-shadow:0px 0px 8px 2px;
+    background: snow;
+    color:rgb(30,30,30);
+
+}
+.item-price{
+    position:absolute;
+    left:0px;
+    top:0px;
+    font-weight: bold;
+    font-size:0px;
+    width:1px;
+    height:30px;
+    border-right:3px solid #00a488;
+    background:#eeeeee;
+    border-radius: 3px 0px;
+}
+.item-box:hover .item-price{
+    transition:font-size,width;
+    transition-timing-function:ease;
+    transition-duration:0.5s;
+    font-size:20px;
+    width:60px;
+}
+.item-name{
+    color:#363636;
+    font-size:20px;
+    background:#eeeeee;
+    margin-top:10px;
+    border-left:3px solid #00a488;
+}
+.item-desc{
+    text-wrap:wrap;
+    background:#eeeeee;
+    margin-top:10px;
+    border-left:3px solid #00a488;
+}
+.item-country{
+    margin-top:10px;
+    border-left:3px solid #00a488;
+    background: #eeeeee;
+    text-shadow: 0px 0px 0.9px;
+}

@@ -1,0 +1,51 @@
+<?php
+/*
+ ===================================================*
+ *== Tamplate Page 	
+ * =================================================*/
+ob_start();
+	// Start Session
+	session_start();
+	// page Title
+$pageTitle = "Tamplate";
+//Error Msg
+$form_err = "";
+//Redirct Error
+$redirect_err = ""; 
+//Error Msg
+$form_success = "";
+//error Field
+$field_error = "";
+if(isset($_SESSION['usernameshop'])){
+	include 'inti.php';
+	// Include The Connect
+	include CTD;
+		//Get Method
+		$shopedit = '';
+			if (isset($_GET['ecshop']))
+				{$shopedit = $_GET['ecshop'];}
+					else {$shopedit = 'dashmange';}
+			//*Main Mange Page
+			if($shopedit == 'dashmange')
+			{	}
+			//*Add Tamplate Form Page		
+			elseif($shopedit == 'add')
+			{	}
+			//*Insert Tamplate Insert Page
+			elseif($shopedit == 'insert')
+			{	}
+			//*edit Tamplate Page
+			elseif($shopedit == 'edit')
+			{	}
+			//---*Update Page---
+			elseif($shopedit == 'update')
+			{	}
+			//---*Delete Page---
+			elseif($shopedit == 'delete')
+			{	}
+}			
+// If Any One Make Any Thing...	
+else{header('Location: index.php'); exit();}
+ob_end_flush();
+?>
+

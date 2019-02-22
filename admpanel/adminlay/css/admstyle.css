@@ -1,0 +1,724 @@
+/* Start Main Style */
+/* Clear All a Decoration */
+a:hover{
+text-decoration:none;
+}
+/* Clear All a Decoration */
+body{
+	background-color:#E3E3E3 !important;
+}
+/* End Main Style */
+
+/* Start Form Style  */
+.admin-bb-phrase{
+    display: inline-block;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+    color: #464646;
+	font-size: 30px;
+	font-weight: bold;
+	font-style: normal;
+	text-shadow: 0px 0px 2px;
+}
+.ico-bb-phrase{
+	color: #464646;
+	text-align: justify;
+	text-shadow: 0px 0px 2px;
+}
+.form-bb-login{
+    width: 450px;
+    height: auto;
+    margin: 12px auto;
+    text-align: center;
+    background-color: #A7A7A7;
+    border: 4px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px;
+}
+.form-bb-ctrl{
+	color: #1a1919;
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+	padding: 1px;
+	margin-bottom: 7px;
+	}
+.login-bb-ctrl{
+	margin-left:4px;
+	margin-bottom:2px;
+	font-weight: bold;
+	width: 99px;
+	font-size: 12px;
+	border: 2px solid #756B6B;
+	height: 26px;
+
+}
+input{
+
+}
+.ico-bb-user{
+	position: absolute;
+	padding-top: 0.5%;
+	/*! background: #ccc; */
+	margin-top: 1px;
+}
+.ico-bb-pass{
+	position: absolute;
+	/*! background: #ccc; */
+	height: 27px;
+	padding-top: 0.5%;
+	margin-top: 1px;
+}
+.price-lable:before{
+	content:"$";
+	padding:1px;
+}
+/* Hover Zone */
+.login-bb-ctrl:hover{
+	color:black;
+	background-color: white;
+	border-radius: 5px;
+}
+.admin-bb-phrase:hover , .ico-bb-phrase:hover{
+	color:white;
+}
+/*********************************************/
+/* Alert Zone Area */
+.error-alert{
+	margin-top:2%;
+	margin-left:32%;
+	display: inline-block;
+	width:36%;
+	font-weight:bold;
+	text-shadow:0px 1px 1px;
+	text-align: center;
+	color:#3F0000;
+	background:#FF9C9C;
+	border:3px solid #9C3E3E;
+	border-radius: 5px;
+	box-shadow: 0px 0px 4px 1px;
+	opacity: 0.7;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+
+}
+.error-alert:hover{
+	opacity:1;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+.alert-bb-ico{
+	position: absolute;
+	margin-left: 39%;
+	margin-top:-8%;
+		color:#310000;
+}
+
+/************************ SIDEBAR *****************/
+.show-bar{
+	width:31px;
+  padding-bottom:10px;
+	padding-right:50px;
+}
+.side-bar{
+	width:2.5%;
+
+}
+.show-menue{
+	margin-left:3px;
+	display: block;
+	font-size:10px;
+
+}
+.show-menue .fa-bars{
+	width: 3%;
+
+}
+
+.all-bar{
+	position: absolute;
+	 z-index: 1;
+	width:220px;
+  margin-top: 5px;
+	margin-left:0px;
+	padding-top:10px;
+	padding-bottom:8px;
+	display:none;
+	background-color: #222222;
+	border:1px solid;
+	border-top:0px;
+	border-right:10px solid #1C5A9F;
+	box-shadow: 0px 0px 4px 2px;
+	border-radius:0px 2px 2px 0px;
+}
+.all-bar:after{
+	content:" ";
+  width:0px;
+	height:0px;
+	border-left:10px solid transparent;
+	border-right:10px solid transparent;
+	border-bottom:15px solid #222222;
+	border-top:0px solid transparent;
+	position: relative;
+  left:3px;
+	bottom: 325px;
+}
+.un-bar{
+	margin-top:17%;
+	margin-left:-18%;
+}
+.sidebar-phrase{
+	color:#DADADA;
+	font-weight: bold;
+	margin-left:10px;
+}
+.sidebar-phrase h3 i{font-size:26px;}
+.un-bar li {list-style:none;}
+.sidebar-link{
+	font-size:18px;
+	font-weight: bold;
+}
+.sidebar-link a {
+	display:block;
+	margin: 6px 0px;
+	padding:5% 15%;
+	text-decoration: none;
+	color:#fff;
+	background-color:#1C5A9F;
+}
+.sl-one{
+	margin-bottom:4px;
+}
+.sidebar-link a:hover{background-color:#1E446F;}
+.show-bar:hover .all-bar{display: block;  position:absolute;}
+
+
+/************************ NAVBAR *****************/
+ /* Dropdown Button */
+.dropbtn {
+	  padding: 16px;
+    padding-left:19px;
+	  padding-right:20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+.button-normal-nav{
+  display: inline;
+}
+
+.normalbut{
+	padding: 16px;
+	margin: 0px 0.1%;
+  background-color: #1C5A9F;
+  border: none;
+  color: white;
+	font-size: 16px;
+
+}
+.normalbut:hover{
+ background-color:#22466F;
+}
+/* Start Ico Zone Area*/
+.home-ico {
+	float:left;
+	padding-top:0.50%;
+	color:#585555;
+}
+.brand-i{
+	padding-left: 1px;
+	padding-top:20px;
+	color:#585555;
+	font-size:25px;
+
+}
+/* End Form Style */
+/* Bootstrap Edit */
+.navbar{
+	border-radius:0px;
+	margin-bottom:2px;
+}
+/***********************************/
+/***********************************/
+	/*Members Edit Area*/
+		/*Form Member Start*/
+.all-form{
+	width: 50%;
+	margin:10px auto;
+	padding:12px;
+	border-top:3px solid #0C2745;
+}
+.edit-phrase{
+	margin:40px auto;
+	font-weight: bold;
+	color:#636363;
+	text-shadow: 0px 0px 4px #A9A9A9;
+	font-size:50px;
+
+}
+.form-user,.form-password,.form-fullname,.form-email{
+	width:100%;
+	height: 40px;
+	border-top:3px solid #383838;
+	border-bottom:0px;
+	border-left:0px;
+	border-right:0px;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 3px;
+
+}
+.form-all-g label{
+	padding: 2px;
+	color:#22222;
+}
+.form-all-g {
+
+}
+.form-email{
+		height: 39px;
+}
+.form-save{
+	margin-top:10px;
+	padding: 17px;
+	width:100%;
+  background-color:#222222;
+  border: none;
+  color: white;
+	font-size: 16px;
+	font-weight:bold;
+	border-radius: 2px;
+	border-top:3px solid #4CAF50;
+}
+.another-field{
+	width:100%;
+}
+.another-field::-webkit-input-placeholder{
+	font-size: 12px;
+}
+.another-field::-moz-placeholder{
+	font-size: 12px;
+}
+.another-field:-ms-input-placeholder{
+	font-size: 12px;
+}
+.another-field::placeholder{
+	font-size: 12px;
+}
+/* Hover Area */
+.form-save:hover{
+  background-color: #404040 ;
+}
+/****** ERRoR Aria *******/
+.text-error{
+	width:50%;
+	margin: 30px auto;
+	padding:10px;
+	border: 2px solid;
+	border-radius: 10px;
+	box-shadow: 1px 1px 2px 0px;
+  text-align:center;
+	font-weight:bold;
+	opacity: 0.5;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+}
+.text-error:hover{opacity: 1;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";box-shadow: 1px 1px 3px 0px;}
+.text-one-error{
+	width:50%;
+	margin:10px auto;
+  text-align: center;
+	font-weight:bold;
+	font-size:25px;
+}
+/** End ERROR ARIA ****/
+/*Succses Area*/
+.text-succses{
+	width: 50%;
+	margin:10px auto;
+	text-align: center;
+	border-radius:5px;
+	font-size:25px;
+	font-weight:bold;
+	box-shadow: 1px 1px 4px 0px;
+	opacity:0.5;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+}
+.text-succses:hover{opacity: 1;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";}
+/*End Succses Area*/
+/* Astrisk Edit */
+.asterisk{
+  position:absolute;
+  left:26.6%;
+	margin-top:5px;
+	font-size:30px;
+	color:red;
+
+}
+/* end Astrisk Edit */
+
+/** Ico Show Password */
+.show-password{
+	position: relative;
+	float:right;
+	top:44px;
+	right:0.1px;
+	margin-top:-41px;
+	padding-top:3px;
+	padding-bottom:7px;
+	padding-right:6px;
+	padding-left:5px;
+	background-color:#5D5D5D;
+	color:#ccc;
+}
+.show-password:hover{color:#ffff;}
+/** END Ico Show Password */
+/*** STart Table Edit Area ****/
+.mange-table tr:first-child td {
+	background-color:#333;
+	color:#fff;
+}
+.mange-table{
+  box-shadow: 0px 0px 2px 2px #333;
+	}
+.tr{
+	border:4px solid #333 !important;
+
+}
+.td {
+	border:3px solid #333 !important;
+	vertical-align:middle !important;
+	background: #fff;
+	color:#333;
+	font-weight: bold;
+}
+.td:hover{
+	background-color:#ccc;
+}
+/*** end Table Edit Area ****/
+/**** Start DASH BOARD ****/
+.wrraper{text-align:center;}
+.dash-phrase {
+	width:30%;
+	text-align:left;
+	color:#fff;
+
+}
+.dash-phrase h1{
+	padding:15px;
+	font-weight:bold;
+	font-size:40px;
+	padding-left:11px;
+	background-color:#4CAF50;
+	border-left:10px solid #222222;
+	border-top:0px solid #222222;
+	border-bottom:0px solid #222222;
+	text-shadow:0px 0px 3px #0F4612;
+}
+.stat{
+	margin-top:20%;
+	margin-bottom:15%;
+  padding:15px;
+	font-weight:bold;
+	font-size:20px;
+	background-color:#222222;
+	border-left:5px solid #4CAF50;
+	border-top:0px solid #222222;
+	border-bottom:0px solid #222222;
+	text-shadow:0px 0px 3px #001C3C;
+	color:#fff;
+}
+.stat span{
+	border-top:1px solid #347437;
+	font-size:30px;
+}
+.stat span a {color:#fff;}
+.stat span a:hover{color:#4CAF50 !important;}
+/* DashBoard Part Tow */
+.the-latest-container{
+	margin:10px auto;
+	padding:10px;
+	font-size:16px;
+	font-weight: bold;
+	/*! position: relative; */
+}
+.hp-dash-one{
+	background-color:#222222 !important;
+	color:#fff !important;
+	border-top:3px solid #4CAF50 !important;
+}
+.hp-dash-tow{
+	background-color:#222222 !important;
+	color:#fff !important;
+	border-top:3px solid #4CAF50 !important;
+}
+.hp-dash-three{
+	background-color:#222222 !important;
+	color:#fff !important;
+	border-top:3px solid #4CAF50 !important;
+	}
+	.toggel-info{
+		color:#e3e3e3;
+		cursor:pointer;
+	}
+	.toggel-info:hover{
+	color:#4CAF50;
+	}
+/** Comment **/
+.container-comm{
+  position: relative;
+	background:#1a1a1a;
+	width: 76%;
+	height: 100%;
+	margin-right: 0px;
+	right: 0%;
+	left:24%;
+	top:0%;
+	border: 5px solid #192a56;
+	border-radius: 5px;
+	margin:2px;
+}
+.message-com{
+	min-height: 40px;
+  border-radius: 3px;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #fff;
+	text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+
+}
+.message-com:hover{
+	background: #404040;
+}
+.tip-comm {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  background:transparent;
+  border: 10px solid #192a56;
+}
+
+
+.tip-lef-comm {
+  top: 10px;
+  left: -25px;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+}
+.un-a{
+color:#fff !important;
+	background:#2c3e50 !important;
+	border-left: transparent;
+	border-right: transparent;
+	border-radius: 5px;
+	border-top: transparent;
+	border-bottom:5px solid #27ae60 !important;
+}
+/**** End DASH BOARD ****/
+/** Start Function Loop Style **/
+.latest-func {
+	padding:8px;
+	margin-bottom:3px;
+	background-color:#222222;
+	color: #fff;
+	border-top:3px solid #184E8A;
+}
+.latest-func:hover{background-color:#3E3E3E; border-top:3px solid #2C822F;
+ }
+/** END Function Loop Style **/
+/* RADIO BUTTON */
+.radio-form{
+	display: inline-block;
+
+}
+.radio-chil-div{
+	display: inline-block;
+
+}
+.radio-div{
+	display: inline-block;
+	padding:10px;
+	margin-top:2%;
+	background-color:#ccc;
+	border-left:4px solid #333
+}
+/* END RADIO BUTTON */
+/* Start Main Phrase Design */
+.main-phrase {
+	width:35%;
+	text-align:left;
+	color:#fff;
+
+}
+.main-phrase h1{
+	padding:15px;
+	font-weight:bold;
+	font-size:40px;
+	padding-left:11px;
+	background-color:#1C5A9F;
+	border-left:10px solid #222222;
+	border-top:0px solid #222222;
+	border-bottom:0px solid #222222;
+	text-shadow:0px 0px 3px #0F4612;
+	}
+
+/* End Main Phrase Design */
+/*****Start Categories Mange******/
+.width-panel{
+	margin:40px auto;
+}
+.panel-body{
+	display: block;
+}
+.hb-cate{
+	text-align:left;
+}
+/*Hr Mange Category*/
+.cate-div .category:last-of-type ~ hr{
+	display:none;
+}
+.cate-div hr{
+	border-bottom:4px solid #1C5A9F;}
+/* Category Panel Mange Start */
+.cate-div h3{
+	margin:0px 0px;
+	padding:10px 10px 10px 10px;
+	width:25%;
+	font-weight: bold;
+	background:#1E4877;
+	color:#ffff;
+	text-shadow: 0px 0px 5px #222222;
+	border-left:4px solid #16A085;
+
+}
+.cate-div p{
+	margin:0px 5px;
+	padding:5px;
+	width:50%;
+	background:#1F1F1F;
+	color:#CACACA;
+	border:1px solid #1D1D1D;
+}
+.public-span{
+  padding:3px 10px;
+  margin:0px 5px;
+	color:#fff;
+	text-shadow:0px 0px 1px #222222;
+	border-radius:4px;
+}
+.aparent{
+	background-color:#01A3A4;
+	border:2px solid #005B5B;
+
+}
+.cate-hidden{
+	background-color:#FD5050;
+	border:2px solid #AB4848;
+
+}
+.comallow{
+	background-color:#5849CB;
+	border:2px solid #41397D;
+}
+.comdisaple{
+	background-color:#222F3E;
+	border:2px solid #1A2028;
+}
+.adallow{
+	background-color:#10AC84;
+	border:2px solid #168568;
+
+}
+.addisable{
+	background-color:#8395A7;
+	border:2px solid #66788B;
+
+}
+.cate-button{
+float:right;
+}
+.category:hover{
+	background:#272727;
+		padding:0px;
+}
+.cate-button a{
+	margin:5px 5px
+}
+
+/* End Category Panel Mange */
+/*------*End Categories Mange*------*/
+/*Main Panel Design */
+.hp-main{
+	background-color:#222222 !important;
+	color:#fff !important;
+	border-top:3px solid #1C5A9F !important;
+	font-size:16px;
+	font-weight: bold;
+}
+.hb-main{
+	background-color:#222222 !important;
+	color:#fff !important;
+	border-top:3px solid #4CAF50 !important;
+	font-weight:bold;
+	margin-top:4px;
+}
+.sort-ico{
+float:left;
+	margin:-55px 0px;
+font-size:25px;
+color:#fff;
+}
+.sort-ico:hover{
+	color:#4CAF50;
+}
+/*end Panel Design */
+/* start select box */
+.select-box{
+	margin:10px 0px 0px 0px;
+	width:95%;
+	height: 40px;
+	text-align:center;
+	font-size:19px;
+
+}
+
+/* end select box */
